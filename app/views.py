@@ -48,7 +48,7 @@ def contact(request):
         context_instance = RequestContext(request,
         {
             'title':'Contact',
-            'message':'Contact me.',
+            'message':'Harish R.',
             'email':'rallapalli.harish@gmail.com',
             'year':datetime.now().year,
         })
